@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.ff7f52fb.css",
+    "main.js": "/react-gh-pages/static/js/main.da640e0a.js",
+    "static/js/787.860837ff.chunk.js": "/react-gh-pages/static/js/787.860837ff.chunk.js",
+    "static/media/modal_x.jpg": "/react-gh-pages/static/media/modal_x.3fc6773cc0d4fa62b2f6.jpg",
+    "static/media/modal_3.jpg": "/react-gh-pages/static/media/modal_3.372f67ca29f5537fdd31.jpg",
+    "static/media/modal_s.jpg": "/react-gh-pages/static/media/modal_s.83cfb9b5584ca21a2ba8.jpg",
+    "static/media/solar_palels.jpg": "/react-gh-pages/static/media/solar_palels.beca7b95705f936de68a.jpg",
+    "static/media/solor_roof.jpg": "/react-gh-pages/static/media/solor_roof.beca7b95705f936de68a.jpg",
+    "static/media/modal_y.jpg": "/react-gh-pages/static/media/modal_y.e9d7d00db3f8bcebc371.jpg",
+    "static/media/accessories.jpg": "/react-gh-pages/static/media/accessories.027ada94d343f5d81f6d.jpg",
+    "index.html": "/react-gh-pages/index.html",
+    "main.ff7f52fb.css.map": "/react-gh-pages/static/css/main.ff7f52fb.css.map",
+    "main.da640e0a.js.map": "/react-gh-pages/static/js/main.da640e0a.js.map",
+    "787.860837ff.chunk.js.map": "/react-gh-pages/static/js/787.860837ff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff7f52fb.css",
+    "static/js/main.da640e0a.js"
+  ]
+}
