@@ -1,0 +1,114 @@
+
+.imageR{
+   
+    width: 100vw;
+    height: 100vh;
+    background-image: url('/public/assets/cars/solor_roof.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; 
+    
+}
+
+.image__title{
+    display: flex;
+    flex-direction: column;
+    padding-top: 15vh;
+    align-items: center;
+    justify-content: center;
+}
+.image__button{
+   display: flex;
+   /* margin-top: -80px; */
+   margin-top:  300px;
+    margin-bottom: 10px;
+   /* margin: 0px 0px -48px;
+   padding: 16px 0px; */
+   /* justify-content: space-around; */
+   
+}
+
+.image__button__left {
+    width: 256px;
+    height: 40px;
+    background-color: rgba(23,26,32,0.8) ;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    border: none;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    cursor: pointer;
+    opacity: 0.9;
+    font-weight: 400;
+    margin: 10px;
+
+}
+
+.image__button__right {
+    width: 256px;
+    height: 40px;
+    color: black;
+    background-color: rgba(244, 244, 244, 0.65);
+    display: flex;
+    border-radius: 100px;
+    font-weight: 300;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*  
+ */
+
+/* arraw bownse */
+.arrow
+{
+  position: relative;
+
+  margin-left:-20px;
+  width: 40px;
+  height: 40px;
+
+  /**
+   * Dark Arrow Down
+   */
+   background-image: url(https://cdn.iconscout.com/icon/free/png-256/keyboard-down-arrow-1780093-1518654.png);
+  background-size: contain;
+}
+
+.bounce {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+@media  (max-width: 720px) {
+    .image__button {
+        margin-bottom: -90px;
+        flex-direction: column;
+    }
+    .image {
+      object-fit: cover;
+      max-width: 100%;
+    }
+   }
